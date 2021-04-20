@@ -1,0 +1,30 @@
+{{ with .Site.Data.skills }} {{ if .enable }}
+<section>
+  <div class="container">
+    <div class="global animate-top">
+      <div class="global-headline">
+        <div class="sub-headline-section">
+          <span>{{ .title }}</span>
+        </div>
+        <h2 class="headline-section">{{ .title }}</h2>
+      </div>
+      <div class="skills-list">
+        {{ range .skills_item }}
+        <div>
+          <h3>{{ .title }}</h3>
+          <ul>
+            {{ .skill_1 | safeHTML }}
+            {{ .skill_2 | safeHTML }}
+            {{ .skill_3 | safeHTML }}
+            {{ .skill_4 | safeHTML }}
+            {{ .skill_5 | safeHTML }}
+            {{ .skill_6 | safeHTML }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="title90__left">{{ .subtitle }}</div>
+  </div>
+</section>
+{{ "<!--Skills ends-->" | safeHTML }} {{ end }} {{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section class="single-page">
+  <div class="container">
+    <div class="global">
+      <div class="project-card animate-top">
+        <div class="project-card-left">
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Content }}</p>
+        </div>
+        <div class="project-card-right">
+          <img
+            alt="image alt text"
+            src="{{ .Params.medium_thumbnail | absURL }}"
+            srcset="
+            {{ .Params.medium_thumbnail | absURL }} 400w,
+            {{ .Params.big_thumbnail | absURL }}    600w
+            "
+            sizes="(max-width: 900px) 400px, (min-width: 901px) 600px, 100vw "
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!--Portfolio ends-->" | safeHTML }} {{ partial "free-card.html" . }} {{ end
+}}

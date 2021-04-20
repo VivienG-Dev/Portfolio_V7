@@ -1,0 +1,25 @@
+enable  : true
+title   : "Compétences"
+subtitle: "Skills"
+skills_item :
+  - title  : "Front"
+    skill_1: "<li>HTML5</li>"
+    skill_2: "<li>CSS3</li>"
+    skill_3: "<li>JavaScript (ES6)</li>"
+    skill_4: "<li>Vue.js (Vue3)</li>"
+    skill_5: "<li>Bootstrap</li>"
+    skill_6: "<li>SASS</li>"
+
+  - title  : "Back"
+    skill_1: "<li>PHP</li>"
+    skill_2: "<li>Node.js</li>"
+    skill_3: "<li>Expres</li>"
+    skill_4: "<li>API Rest</li>"
+    skill_5: "<li>WordPress</li>"
+
+  - title  : "Outils"
+    skill_1: "<li>Visual Studio Code</li>"
+    skill_2: "<li>Windows 10</li>"
+    skill_3: "<li>Static Site Generator</li>"
+    skill_4: "<li>Photoshop</li>"
+    skill_5: "<li>Figma</li>"

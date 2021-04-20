@@ -1,0 +1,25 @@
+<header class="headroom">
+  <div class="container">
+    <nav class="nav">
+      <a href="{{ .Site.BaseURL }}" class="logo"
+        ><img src="{{ "images/vivieng-logo.png" | absURL }}" alt="logo" />
+      </a>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </div>
+      <ul class="nav-list">
+        {{$menu := (.Site.Menus.nav)}} {{$len := (len $menu)}} {{ range $index,
+        $element := $menu }}
+        <li class="nav-item">
+          <a href="{{ .URL | absURL }}" class="nav-link active">{{ .Name }}</a>
+        </li>
+        {{ end }}
+        <li id="nav-darkmode" class="nav-item">
+          <a href="#" id="darkmode" class="nav-link" onclick="myFunction()"></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+{{ "<!--Header ends-->" | safeHTML }}

@@ -1,0 +1,27 @@
+{{ with .Site.Params.banner }} {{ if .enable }}
+<section class="hero" id="hero">
+  <div class="hero-right">
+    <div class="sub-headline">
+      <img
+        loading="auto"
+        alt="image alt text"
+        src="/img/vivieng-photo.jpg"
+        srcset="
+          {{ "images/vivieng-photo.jpg" | absURL }}               112w,
+          {{ "images/vivieng-profile-jumbotron-2.png" | absURL }} 813w
+        "
+        sizes="(max-width: 1024px) 112px, (min-width: 1025px) 813px, 100vw "
+      />
+    </div>
+  </div>
+  <div class="hero-left">
+    <h1 class="headline">{{ .heading }}</h1>
+    <div class="headline-description">
+      <div class="single-animation">
+        <h5>{{ .tagline }}</h5>
+        <a href="{{ .primary_button_url | absURL }}" class="btn btn-cta">{{ .primary_button }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!--Hero ends-->" | safeHTML }} {{ end }} {{ end }}

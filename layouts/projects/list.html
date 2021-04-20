@@ -1,0 +1,40 @@
+{{ define "main" }} {{ with .Site.Params.portfolio }} {{ if .enable }}
+<section class="single-page">
+  <div class="container">
+    <div class="global">
+      <div class="global-headline">
+        <div class="sub-headline-section">
+          <span>{{ .title }}</span>
+        </div>
+        <h2 class="headline-section">{{ .title }}</h2>
+      </div>
+      <div class="realisation-container">
+        {{ range $.Site.RegularPages }}
+        <div class="realisations-card animate-top">
+          <div class="realisations-card-left">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p>Lorem, ipsum dolor sit.</p>
+          </div>
+          <a href="{{ .Permalink }}">
+            <div class="realisations-card-right">
+              <img
+              loading="auto"
+                alt="image alt text"
+                src="{{ .Params.small_thumbnail | absURL }}"
+                srcset="
+                  {{ .Params.small_thumbnail | absURL }} 112w,
+                  {{ .Params.big_thumbnail | absURL }}   600w
+                "
+                sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
+              />
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="title90__right">{{ .subtitle }}</div>
+  </div>
+</section>
+{{ "<!--Portfolio ends-->" | safeHTML }} {{ end }} {{ end }} {{ partial
+"free-card.html" . }} {{ end }}

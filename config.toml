@@ -1,0 +1,116 @@
+baseURL = "https://www.vivieng.com/"
+languageCode = "en-us"
+title = "VivienG | Développeur web"
+summaryLength = "10"
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Accueil"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Réalisations"
+    url     = "projects"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 3
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "VivienG | Développeur et intégrateur web"
+  author = "VivienG"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "VIVIENG"
+    tagline               = "Développeur Web front-end"
+    primary_button        = "mon cv"
+    primary_button_url    = "contact"
+    secondary_button      = ""
+    secondary_button_url  = ""
+
+  [params.portfolio]
+    enable    = true
+    title     = "Réalisations"
+    subtitle  = "Portfolio"
+    primary_button = "Plus de réalisations"
+    primary_button_url = "projects"
+
+  [params.about]
+    enable              = true
+    title               = "A propos"
+    subtitle            = "About"
+    image               = ""
+    p_tag_1             = "Je m’appelle Grenier Vivien et je suis développeur web."
+    p_tag_2             = "Amateur d’interfaces conviviales, faciles d’utilisation et jolies j’ai naturellement une préférence pour le front-end. J’aime également travailler sur l’optimisation, la charte graphique, le responsive design et donc l’expérience utilisateur…"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+      phone   = "409-896-1444"
+      email   = "info@roxo.co"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Medium"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Behance"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Dribbble"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        description = "Design et intégration par VivienG. © 2021"
