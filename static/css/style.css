@@ -74,6 +74,7 @@ h4 > a:hover {
   --color-text-footer: #fff;
   --text-nav-mobile: #fff;
   --top-site-link: #fff;
+  --text-badges: #fff;
   --margin-top-section: 3.9rem;
   --margin-bottom-title: 2.5rem;
 }
@@ -1058,7 +1059,7 @@ header {
 
 .project-card-left h4 {
   font-size: 1.8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-card-right {
@@ -1087,6 +1088,19 @@ header {
     width: 40%;
     margin-right: 2rem;
   }
+}
+
+.project__badges {
+  padding-bottom: 2rem;
+}
+
+.project__badges span {
+  background: var(--secondary-font-color);
+  padding: 0.4rem;
+  border-radius: 5px;
+  color: var(--text-badges);
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
 }
 
 .skills-list {
