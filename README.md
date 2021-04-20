@@ -14,5 +14,5 @@ I started to write my website in HTML5, CSS3 and then added a bit of JavaScript 
 enough for the job, but I wanted to learn how static site generators working and I decided to convert my website
 to HUGO.
 
-HUGO has been chosen for his speed and his capacity to grow easly. And it could be easy to add a "blog posts" with
+HUGO has been chosen for his speed and his capacity to grow easly. And I could easy add a "blog posts" with
 HUGO in the future.
