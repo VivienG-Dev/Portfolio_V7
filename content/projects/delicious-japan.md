@@ -6,7 +6,7 @@ author: "VivienG"
 tags: ["HTML5", "CSS3", "Bootstrap 4", "SASS"]
 category: ["Portfolio"]
 link_to_website: ""
-big_thumbnail: ""
-medium_thumbnail: ""
-small_thumbnail: ""
+big_thumbnail: "images/delicious-japan-big.JPG"
+medium_thumbnail: "images/delicious-japan-medium.JPG"
+small_thumbnail: "images/delicious-japan-small.JPG"
 ---
