@@ -6,7 +6,9 @@ author: "VivienG"
 type: featured
 tags: ["HTML5", "CSS3", "Bootstrap 4", "WordPress 4.9.9"]
 category: ["Portfolio"]
+link_to_website: "https://www.beta-condoview.vivieng.com/"
 big_thumbnail: "images/sombat-condoview-big.jpg"
+medium_thumbnail: "images/sombat-condoview-medium.jpg"
 small_thumbnail: "images/sombat-condoview-small.jpg"
 ---
 

@@ -5,5 +5,8 @@ draft: true
 author: "VivienG"
 tags: ["HTML5", "CSS3", "Bootstrap 4", "SASS"]
 category: ["Portfolio"]
-thumbnail: ""
+link_to_website: ""
+big_thumbnail: ""
+medium_thumbnail: ""
+small_thumbnail: ""
 ---

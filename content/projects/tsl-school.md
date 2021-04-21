@@ -6,7 +6,9 @@ type: featured
 author: "VivienG"
 tags: ["HTML5", "CSS3", "Bootstrap 3"]
 category: ["Portfolio"]
+link_to_website: "https://www.languageschool-beta.vivieng.com/"
 big_thumbnail: "images/tsl-language-school-big.jpg"
+medium_thumbnail: "images/tsl-language-school-medium.jpg"
 small_thumbnail: "images/tsl-language-school-small.jpg"
 ---
 
