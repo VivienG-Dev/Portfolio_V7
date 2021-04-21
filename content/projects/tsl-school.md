@@ -12,9 +12,6 @@ medium_thumbnail: "images/tsl-language-school-medium.jpg"
 small_thumbnail: "images/tsl-language-school-small.jpg"
 ---
 
-Idée de rénovation du site web de l'école Thaïlandaise dans laquelle j'ai étudié le Thaïlandais.
+Rénovation du site web de l'école Thaïlandaise dans laquelle j'ai étudié un certain temps.
 
-Client : TSL Language School
-Designer : VivienG
-Site original : tlslanguageschool.com
-Technologies : HTML5 & CSS3 / Bootstrap 3
+Le design actuel est toujours disponible sur [tlslanguageschool.com](http://www.tlslanguageschool.com)
