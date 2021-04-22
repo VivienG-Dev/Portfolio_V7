@@ -1,0 +1,32 @@
+enable  : true
+title   : "Contact"
+questions_item :
+  - question  : "Pouvez-vous faire du design ?"
+    answer: "Je ne suis pas designer et même si j'aime pratiquer le design sur mon temps libre, je me concentre principalement sur l'intégration."
+
+  - question  : "Quel type de site pouvez-vous faire ?"
+    answer: "Je suis parfaitement capable de créer un site vitrine, un site
+            WordPress, le tout bien évidemment en responsive (donc adapté aux
+            smartphones).<br /><br />
+            En fonction des besoins du client, je peux également utiliser la
+            Jamstack, générateurs de site statique comme
+            <strong>HUGO</strong> et même des CMS headless comme
+            <strong>Strapi</strong>.<br /><br />
+            Ces deux technologies permettent d'avoir les avantages d'un site
+            WordPress sans les inconvéniants."
+
+  - question  : "Quels sont les tarifs d'un site ?"
+    answer: "Les tarifs d'un site web peuvent varier du simple au double en
+            fonction des besoins du client, de la charge de travail, du type de
+            site (WordPress, Wix, personnalisé). Les prix peuvent donc varier de
+            quelques dizaines d'euros par mois pour les abonnements (Wix) à 500€
+            ~ 3000€.<br />
+            <br />
+            C'est le même principe que la voiture, de base ou avec des options,
+            essence ou électrique..."
+
+  - question : "Et concernant l'hébergement d'un site ?"
+    answer: "Je ne m'occupe pour le moment pas l'hébergement d'un site client, il
+            reste donc à la charge de ce dernier.<br /><br />
+            Je peux néanmoins fournir des conseils et vous guider vers la bonne
+            solution pour vos besoins."

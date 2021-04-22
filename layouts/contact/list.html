@@ -5,9 +5,9 @@
     <div class="global">
       <div class="global-headline">
         <div class="sub-headline-section">
-          <span>Contact</span>
+          <span>{{ .Title }}</span>
         </div>
-        <h1 class="headline-section">Contact</h1>
+        <h1 class="headline-section">{{ .Title }}</h1>
       </div>
       <div class="email-block animate-top">
         <div class="email-block__left">
@@ -15,51 +15,24 @@
         </div>
         <div class="email-block__right">
           <h3>Vous pouvez me contacter à cette adresse :</h3>
-          <p>grenier.vivien.z {a} gmail.com</p>
+          <p>{{ .Params.email }}</p>
         </div>
       </div>
+      {{ with .Site.Data.contact }}
       <div class="contact-card animate-top">
         <div class="contact-card-left">
           <h2>Questions fréquentes</h2>
         </div>
         <div class="contact-card-right">
-          <h3>Pouvez-vous faire du design ?</h3>
+          {{ range .questions_item }}
+          <h3>{{ .question }}</h3>
           <p>
-            Je ne suis pas designer et même si j'aime pratiquer le design sur
-            mon temps libre, je me concentre principalement sur l'intégration.
+            {{ .answer | safeHTML }}
           </p>
-          <h3>Quel type de site pouvez-vous faire ?</h3>
-          <p>
-            Je suis parfaitement capable de créer un site vitrine, un site
-            WordPress, le tout bien évidemment en responsive (donc adapté aux
-            smartphones).<br /><br />
-            En fonction des besoins du client, je peux également utiliser la
-            Jamstack, générateurs de site statique comme
-            <strong>HUGO</strong> et même des CMS headless comme
-            <strong>Strapi</strong>.<br /><br />
-            Ces deux technologies permettent d'avoir les avantages d'un site
-            WordPress sans les inconvéniants.
-          </p>
-          <h3>Quels sont les tarifs d'un site ?</h3>
-          <p>
-            Les tarifs d'un site web peuvent varier du simple au double en
-            fonction des besoins du client, de la charge de travail, du type de
-            site (WordPress, Wix, personnalisé). Les prix peuvent donc varier de
-            quelques dizaines d'euros par mois pour les abonnements (Wix) à 500€
-            ~ 3000€.<br />
-            <br />
-            C'est le même principe que la voiture, de base ou avec des options,
-            essence ou électrique...
-          </p>
-          <h3>Et concernant l'hébergement d'un site ?</h3>
-          <p>
-            Je ne m'occupe pour le moment pas l'hébergement d'un site client, il
-            reste donc à la charge de ce dernier.<br /><br />
-            Je peux néanmoins fournir des conseils et vous guider vers la bonne
-            solution pour vos besoins.
-          </p>
+          {{ end }}
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
