@@ -5,6 +5,7 @@ draft: true
 author: "VivienG"
 tags: []
 categories: []
+summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
 link_to_website: ""
 big_thumbnail: ""
 medium_thumbnail: ""
