@@ -19,10 +19,10 @@
         <div class="project-card-right">
           <img
             alt="image alt text"
-            src="{{ .Params.medium_thumbnail | urlize }}"
+            src="{{ .Params.medium_thumbnail | absURL }}"
             srcset="
-            {{ .Params.medium_thumbnail | urlize }} 400w,
-            {{ .Params.big_thumbnail | urlize }}    600w
+            {{ .Params.medium_thumbnail | absURL }} 400w,
+            {{ .Params.big_thumbnail | absURL }}    600w
             "
             sizes="(max-width: 900px) 400px, (min-width: 901px) 600px, 100vw "
           />

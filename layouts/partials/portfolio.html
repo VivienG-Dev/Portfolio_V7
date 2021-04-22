@@ -20,10 +20,10 @@
                 <img
                 loading="auto"
                   alt="image alt text"
-                  src="{{ .Params.small_thumbnail | urlize }}"
+                  src="{{ .Params.small_thumbnail | absURL }}"
                   srcset="
-                    {{ .Params.small_thumbnail | urlize }} 112w,
-                    {{ .Params.big_thumbnail | urlize }}   600w
+                    {{ .Params.small_thumbnail | absURL }} 112w,
+                    {{ .Params.big_thumbnail | absURL }}   600w
                   "
                   sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
                 />
