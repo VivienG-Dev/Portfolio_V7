@@ -8,11 +8,12 @@
         </div>
         <h2 class="headline-section">{{ .title }}</h2>
       </div>
-      <div class="skills-list">
+      <div class="skills">
         {{ range .skills_item }}
-        <div>
+        <div class="skills__block">
+          {{ .svg | safeHTML }}
           <h3>{{ .title }}</h3>
-          <ul>
+          <ul class="skills__list">
             {{ .skill_1 | safeHTML }}
             {{ .skill_2 | safeHTML }}
             {{ .skill_3 | safeHTML }}
@@ -24,7 +25,9 @@
         {{ end }}
       </div>
     </div>
-    <div class="title90__left">{{ .subtitle }}</div>
+    <div class="title90__left">
+      {{ .subtitle }}
+    </div>
   </div>
 </section>
 {{ "<!--Skills ends-->" | safeHTML }} {{ end }} {{ end }}
