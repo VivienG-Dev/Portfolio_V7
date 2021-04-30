@@ -15,8 +15,8 @@
             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
             <p>{{ .Summary }}</p>
           </div>
-          <a href="{{ .Permalink }}">
             <div class="realisations-card-right">
+              <a href="{{ .Permalink }}">
               <img
               loading="auto"
                 alt="image alt text"
@@ -27,8 +27,8 @@
                 "
                 sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
               />
+            </a>
             </div>
-          </a>
         </div>
         {{ end }}
       </div>

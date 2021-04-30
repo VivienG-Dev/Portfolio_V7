@@ -14,21 +14,21 @@
             <div class="realisations-card-left">
               <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
               <p>{{ .Summary }}</p>
-            </div>
-            <a href="{{ .Permalink }}">
+            </div>   
               <div class="realisations-card-right">
+                <a href="{{ .Permalink }}">
                 <img
-                loading="auto"
+                  loading="lazy"
                   alt="image alt text"
-                  src="{{ .Params.small_thumbnail | absURL }}"
-                  srcset="
+                  src='{{ .Params.small_thumbnail | absURL }}'
+                  srcset='
                     {{ .Params.small_thumbnail | absURL }} 112w,
                     {{ .Params.big_thumbnail | absURL }}   600w
-                  "
+                  '
                   sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
                 />
-              </div>
-            </a>
+              </a>
+              </div>        
           </div>
           {{ end }}
         </div>

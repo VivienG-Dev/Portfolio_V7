@@ -7,9 +7,9 @@ tags: ["HTML5", "CSS3", "JavaScript", "SASS"]
 category: ["Portfolio"]
 summary: "Site conçu sur le thème de la nourriture japonaise."
 link_to_website: ""
-big_thumbnail: "images/delicious-japan-big.JPG"
-medium_thumbnail: "images/delicious-japan-medium.JPG"
-small_thumbnail: "images/delicious-japan-small.JPG"
+big_thumbnail: "images/delicious-japan-big.jpg"
+medium_thumbnail: "images/delicious-japan-medium.jpg"
+small_thumbnail: "images/delicious-japan-small.jpg"
 ---
 
 Delicious Japan est un site conçu avec le trio HTML, CSS et JavaScript sur le thème de la nourriture japonaise.

@@ -21,7 +21,8 @@ summaryLength = "10"
 
 # Site Params
 [params]
-  logo = "images/logo.png"
+  logo = "/images/vivieng-logo.png"
+  alt = "VivienG logo"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "VivienG | Développeur et intégrateur web"
@@ -51,7 +52,9 @@ summaryLength = "10"
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
+    image_small           = "/images/vivieng-hero-small.jpg"
+    image_big             = "/images/vivieng-hero-big.png"
+    alt                   = "VivienG"
     heading               = "VIVIENG"
     tagline               = "Développeur Web front-end"
     primary_button        = "mon cv"
