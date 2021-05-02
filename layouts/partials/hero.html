@@ -2,16 +2,10 @@
 <section class="hero" id="hero">
   <div class="hero-right">
     <div class="sub-headline">
-      <img
-        loading="lazy"
-        alt="{{ .alt }}"
-        src="{{ .image_small | absURL }}"
-        srcset='
-          {{ .image_small | absURL }}               112w,
-          {{ .image_big | absURL }}                813w
-        '
-        sizes="(max-width: 1024px) 112px, (min-width: 1025px) 813px, 100vw"
-      />
+      <picture>
+        <source media="(max-width: 1200px)" srcset="{{ .image_small | absURL }}">
+        <img src="{{ .image_big | absURL }}" alt="{{ .alt }}">
+      </picture>
     </div>
   </div>
   <div class="hero-left">
@@ -19,7 +13,6 @@
     <div class="headline-description">
       <div class="single-animation">
         <h5>{{ .tagline }}</h5>
-        <a href="{{ .primary_button_url | absURL }}" class="btn btn-cta">{{ .primary_button }}</a>
       </div>
     </div>
   </div>

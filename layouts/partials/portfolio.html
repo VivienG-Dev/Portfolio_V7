@@ -19,7 +19,7 @@
                 <a href="{{ .Permalink }}">
                 <img
                   loading="lazy"
-                  alt="image alt text"
+                  alt="{{ .Params.alt_thumbnail }}"
                   src='{{ .Params.small_thumbnail | absURL }}'
                   srcset='
                     {{ .Params.small_thumbnail | absURL }} 112w,

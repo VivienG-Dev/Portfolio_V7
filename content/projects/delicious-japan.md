@@ -10,6 +10,7 @@ link_to_website: ""
 big_thumbnail: "images/delicious-japan-big.jpg"
 medium_thumbnail: "images/delicious-japan-medium.jpg"
 small_thumbnail: "images/delicious-japan-small.jpg"
+alt_thumbnail: "Delicious Japan project"
 ---
 
 Delicious Japan est un site conçu avec le trio HTML, CSS et JavaScript sur le thème de la nourriture japonaise.
