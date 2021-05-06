@@ -3,7 +3,7 @@ title: "Sombat Condoview"
 date: 2021-04-15T03:54:20+02:00
 draft: false
 author: "VivienG"
-type: featured
+type:
 tags: ["HTML5", "CSS3", "Bootstrap 4", "WordPress 4.9.9"]
 category: ["Portfolio"]
 summary: "Site expérimental réalisé pour une copropriété en Thaïlande."
