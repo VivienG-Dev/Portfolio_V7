@@ -17,3 +17,5 @@ alt_thumbnail: "Delicious Japan project"
 Delicious Japan est un site conçu avec le trio HTML, CSS et JavaScript sur le thème de la nourriture japonaise.
 
 Il est parfaitement responsive et dispose d'un "dark mode".
+
+Le design original provient de [Pixelgrade](https://dribbble.com/shots/1560982-Rosa-Restaurant-Website)
