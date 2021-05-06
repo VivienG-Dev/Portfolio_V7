@@ -73,9 +73,18 @@ summaryLength = "10"
     enable              = true
     title               = "A propos"
     subtitle            = "About"
-    image               = ""
+    image               = "/images/vivieng-about.jpg"
+    alt                 = "Galaxy Quest"
     p_tag_1             = "Je m’appelle Grenier Vivien et je suis développeur web."
     p_tag_2             = "Amateur d’interfaces conviviales, faciles d’utilisation et jolies j’ai naturellement une préférence pour le front-end. J’aime également travailler sur l’optimisation, la charte graphique, le responsive design et donc l’expérience utilisateur…"
+  
+  [params.p404]
+    enable              = true
+    title               = "404"
+    image               = "/images/Galaxy-Quest-Screen-Shots-tony-shalhoub.jpg"
+    h2                  = "Un terrible incident c'est produit !"
+    p_tag_1             = "Suite à une collision avec l'astéroïde B404c, une brèche dans la sphère de béryllium qui alimente le serveur du site cause des problèmes."
+    p_tag_2             = "Bien naturellement j'ai mis mes meilleurs techniciens sur le coup."  
 
   [params.footer]
     # Footer Contact Info
