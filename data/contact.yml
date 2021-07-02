@@ -13,20 +13,19 @@ questions_item :
             <strong>HUGO</strong> et même des CMS headless comme
             <strong>Strapi</strong>.<br /><br />
             Ces deux technologies permettent d'avoir les avantages d'un site
-            WordPress sans les inconvéniants."
+            WordPress sans les inconvénients."
+
+  - question : "J'ai besoin d'un audit pour savoir ce qui cloche sur mon site ?"
+    answer: "Si vous avez besoin d'un audit afin de faire le point sur un problème
+    de SEO, de design, d'optimisation alors je peux également vous aider dans cette tâche."
 
   - question  : "Quels sont les tarifs d'un site ?"
     answer: "Les tarifs d'un site web peuvent varier du simple au double en
             fonction des besoins du client, de la charge de travail, du type de
-            site (WordPress, Wix, personnalisé). Les prix peuvent donc varier de
-            quelques dizaines d'euros par mois pour les abonnements (Wix) à 500€
-            ~ 3000€.<br />
-            <br />
-            C'est le même principe que la voiture, de base ou avec des options,
-            essence ou électrique..."
+            site (WordPress, Wix, statique, personnalisé). Les prix peuvent donc varier de 
+            800€ à 3000€.<br />
+            Concernant le prix d'un audit, içi aussi il faudra voir au cas par cas."
 
   - question : "Et concernant l'hébergement d'un site ?"
-    answer: "Je ne m'occupe pour le moment pas l'hébergement d'un site client, il
-            reste donc à la charge de ce dernier.<br /><br />
-            Je peux néanmoins fournir des conseils et vous guider vers la bonne
-            solution pour vos besoins."
+    answer: "Je peux vous aider à trouver la bonne solution pour vos besoins
+            et votre budget."
