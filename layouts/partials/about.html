@@ -1,19 +1,19 @@
 {{ with .Site.Params.about }} {{ if .enable }}
 <section>
   <div class="container">
-    <div class="global padding-right animate-top">
-      <div class="global-headline">
+    <div class="global padding-right">
+      <div class="global-headline reveal-1">
         <div class="sub-headline-section">
           <span>{{ .title }}</span>
         </div>
         <h2 class="headline-section">{{ .title }}</h2>
       </div>
       <div class="about-container">
-        <div class="text-about animate-top">
+        <div class="text-about reveal-1">
           <p>{{ .p_tag_1 }}</p>
           <p>{{ .p_tag_2 }}</p>
         </div>
-        <div class="image-about animate-top">
+        <div class="image-about reveal-2">
           <img src='{{ .image | absURL }}' loading="lazy" alt="VivienG" />
           <a href="https://twitter.com/vivieng_webdev"><i class="fab fa-twitter"></i></a>
         </div>

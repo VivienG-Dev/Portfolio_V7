@@ -1,6 +1,6 @@
 {{ with .Site.Params.banner }} {{ if .enable }}
 <section class="hero" id="hero">
-  <div class="hero-right">
+  <div class="hero-right reveal-1">
     <div class="sub-headline">
       <picture>
         <source media="(max-width: 1200px)" srcset="{{ .image_small | absURL }}">
@@ -12,7 +12,7 @@
     <h1 class="headline">{{ .heading }}</h1>
     <div class="headline-description">
       <div class="single-animation">
-        <h5>{{ .tagline }}</h5>
+        <h2>{{ .tagline }}</hé>
       </div>
     </div>
   </div>

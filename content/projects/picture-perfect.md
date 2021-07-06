@@ -6,7 +6,8 @@ author: "VivienG"
 type: featured
 tags: ["HTML5", "CSS3", "Bootstrap 4", "SASS"]
 category: ["Portfolio"]
-summary: "Site réalisé à partir du PSD de Blaz Robar avec Bootstrap 4."
+summary: "Site réalisé à partir du PSD de Blaz Robar avec Bootstrap 4 | VivienG"
+keywords: ""
 link_to_website: "https://www.pictureperfect.vivieng.com/"
 big_thumbnail: "images/picture-perfect-big.jpg"
 medium_thumbnail: "images/picture-perfect-medium.jpg"

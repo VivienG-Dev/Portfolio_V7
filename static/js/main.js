@@ -5,21 +5,6 @@ toggle.addEventListener("click", () => {
   document.body.classList.toggle("open");
 });
 
-// Scrool reveal
-function scrool(target, origin, delay) {
-  ScrollReveal().reveal(target, {
-    origin: origin,
-    duration: 1000,
-    distance: "25rem",
-    delay: delay,
-  });
-}
-
-scrool(".animate-left", "left", 300);
-scrool(".animate-right", "right", 600);
-scrool(".animate-top", "top", 600);
-scrool(".animate-bottom", "bottom", 600);
-
 // Dark Mode
 function myFunction() {
   // Get the checkbox

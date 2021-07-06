@@ -2,6 +2,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
+  <meta name="keywords" content="{{ if .Params.keywords }}{{ .Params.keywords }}{{ else if .Site.Params.Keywords }}{{ .Site.Params.Keywords }}{{ end }}">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.vivieng.com/">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
+  <meta property="og:image" content="{{ .Site.Params.metaimage | absURL }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.vivieng.com/">
+  <meta property="twitter:title" content="{{ .Title }}">
+  <meta property="twitter:description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
+  <meta property="twitter:image" content="{{ .Site.Params.metaimage | absURL }}">
   <title>{{ .Title }}</title>
   <!-- Font Anwsome 5-->
   <link
@@ -10,6 +26,4 @@
   />
   <!-- Style -->
   <link rel="stylesheet" href="{{ "css/style.min.css" | absURL }}" />
-  <!-- Scrool reveal CDN-->
-  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
