@@ -14,7 +14,10 @@
           <p>{{ .p_tag_2 }}</p>
         </div>
         <div class="image-about reveal-2">
-          <img src='{{ .image | absURL }}' loading="lazy" alt="VivienG" />
+          <picture>
+            <source media="(max-width: 767px)" srcset="{{ .image_small | absURL }}">
+            <img loading="lazy" src="{{ .image_big | absURL }}" alt="{{ .alt }}">
+          </picture>
           <a href="https://twitter.com/vivieng_webdev"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
