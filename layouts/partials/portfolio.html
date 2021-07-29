@@ -1,42 +1,42 @@
 {{ with .Site.Params.portfolio }} {{ if .enable }}
-<section class="single-page">
-    <div class="container">
-      <div class="global">
-        <div class="global-headline reveal-1">
-          <div class="sub-headline-section">
-            <span>{{ .title }}</span>
-          </div>
-          <h2 class="headline-section">{{ .title }}</h2>
+<section>
+  <div class="container">
+    <div class="global">
+      <div class="global__title reveal-1">
+        <div class="global__subheadline">
+          <span>{{ .title }}</span>
         </div>
-        <div class="realisation-container">
-          {{ range (where $.Site.RegularPages "Type" "featured") }}
-          <div class="realisations-card reveal-1">
-            <div class="realisations-card-left">
-              <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-              <p>{{ .Summary }}</p>
-            </div>   
-              <div class="realisations-card-right">
-                <a href="{{ .Permalink }}">
-                <img
-                  loading="lazy"
-                  alt="{{ .Params.alt_thumbnail }}"
-                  src='{{ .Params.small_thumbnail | absURL }}'
-                  srcset='
+        <h2 class="global__headline">{{ .title }}</h2>
+      </div>
+      <div class="realisations">
+        {{ range (where $.Site.RegularPages "Type" "featured") }}
+        <article class="realisations__card reveal-1">
+          <div class="realisations__card--left">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+          </div>
+          <div class="realisations__card--right">
+            <a href="{{ .Permalink }}">
+              <img
+                loading="lazy"
+                alt="{{ .Params.alt_thumbnail }}"
+                src="{{ .Params.small_thumbnail | absURL }}"
+                srcset="
                     {{ .Params.small_thumbnail | absURL }} 112w,
                     {{ .Params.big_thumbnail | absURL }}   600w
-                  '
-                  sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
-                />
-              </a>
-              </div>        
+                  "
+                sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
+              />
+            </a>
           </div>
-          {{ end }}
-        </div>
-      </div>
-      <a href="{{ .primary_button_url | absURL }}" class="btn btn-body">{{ .primary_button }}</a>
-      <div class="title90__right">
-        {{ .subtitle }}
+        </article>
+        {{ end }}
       </div>
     </div>
-  </section>
-  {{ "<!--Portfolio ends-->" | safeHTML }} {{ end }} {{ end }}
+    <a href="{{ .primary_button_url | absURL }}" class="btn btn--card"
+      >{{ .primary_button }}</a
+    >
+    <div class="title90 title90--right">{{ .subtitle }}</div>
+  </div>
+</section>
+{{ "<!--Portfolio ends-->" | safeHTML }} {{ end }} {{ end }}

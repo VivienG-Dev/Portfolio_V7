@@ -2,23 +2,23 @@
 <section class="single-page">
   <div class="container">
     <div class="global">
-      <div class="global-headline reveal-1">
-        <div class="sub-headline-section">
+      <div class="global__title reveal-1">
+        <div class="global__subheadline">
           <span>{{ .title }}</span>
         </div>
-        <h2 class="headline-section">{{ .title }}</h2>
+        <h2 class="global__headline">{{ .title }}</h2>
       </div>
-      <div class="realisation-container">
+      <div class="realisations">
         {{ range $.Site.RegularPages }}
-        <div class="realisations-card reveal-1">
-          <div class="realisations-card-left">
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <article class="realisations__card reveal-1">
+          <div class="realisations__card--left">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <p>{{ .Summary }}</p>
           </div>
-            <div class="realisations-card-right">
-              <a href="{{ .Permalink }}">
+          <div class="realisations__card--right">
+            <a href="{{ .Permalink }}">
               <img
-              loading="lazy"
+                loading="lazy"
                 alt="{{ .Params.alt_thumbnail }}"
                 src="{{ .Params.small_thumbnail | absURL }}"
                 srcset="
@@ -28,12 +28,12 @@
                 sizes="(max-width: 900px) 112px, (min-width: 901px) 600px, 100vw "
               />
             </a>
-            </div>
-        </div>
+          </div>
+        </article>
         {{ end }}
       </div>
     </div>
-    <div class="title90__right">{{ .subtitle }}</div>
+    <div class="title90 title90--right">{{ .subtitle }}</div>
   </div>
 </section>
 {{ "<!--Portfolio ends-->" | safeHTML }} {{ end }} {{ end }} {{ end }}

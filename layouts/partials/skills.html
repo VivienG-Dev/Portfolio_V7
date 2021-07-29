@@ -1,12 +1,12 @@
 {{ with .Site.Data.skills }} {{ if .enable }}
 <section>
   <div class="container">
-    <div class="global animate-top">
-      <div class="global-headline reveal-1">
-        <div class="sub-headline-section">
+    <div class="global">
+      <div class="global__title reveal-1">
+        <div class="global__subheadline">
           <span>{{ .title }}</span>
         </div>
-        <h2 class="headline-section">{{ .title }}</h2>
+        <h2 class="global__headline">{{ .title }}</h2>
       </div>
       <div class="skills reveal-1">
         {{ range .skills_item }}
@@ -25,7 +25,7 @@
         {{ end }}
       </div>
     </div>
-    <div class="title90__left">
+    <div class="title90 title90--left">
       {{ .subtitle }}
     </div>
   </div>

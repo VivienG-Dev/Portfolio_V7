@@ -3,29 +3,26 @@
 <section class="single-page">
   <div class="container">
     <div class="global">
-      <div class="global-headline reveal-1">
-        <div class="sub-headline-section">
+      <div class="global__title reveal-1">
+        <div class="global__subheadline">
           <span>{{ .Title }}</span>
         </div>
-        <h1 class="headline-section">{{ .Title }}</h1>
+        <h2 class="global__headline">{{ .Title }}</h2>
       </div>
-      <div class="email-block reveal-1">
-        <div class="email-block__left">
-          <h2>Mon Email</h2>
-        </div>
-        <div class="email-block__right">
-          <h3>Vous pouvez me contacter à cette adresse :</h3>
+      <div class="email reveal-1">
+        <div class="email__left">
+          <h3>Mon Email</h3>
           <p>{{ .Params.email }}</p>
         </div>
       </div>
       {{ with .Site.Data.contact }}
-      <div class="contact-card reveal-2">
-        <div class="contact-card-left">
-          <h2>Questions fréquentes</h2>
+      <div class="contact reveal-2">
+        <div class="contact--left">
+          <h3>Questions fréquentes</h3>
         </div>
-        <div class="contact-card-right">
+        <div class="contact--right">
           {{ range .questions_item }}
-          <h3>{{ .question }}</h3>
+          <h4>{{ .question }}</h4>
           <p>
             {{ .answer | safeHTML }}
           </p>

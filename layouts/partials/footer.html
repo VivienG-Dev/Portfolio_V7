@@ -1,8 +1,8 @@
 <footer>
     {{ with .Site.Params.footer.service }}
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-content-about">
+      <div class="footer">
+        <div class="footer__text">
           <p>{{ .description | safeHTML }}</p>
         </div>
       </div>
@@ -30,8 +30,8 @@
       </svg>
     </a>
   </footer>
-  <script src="{{ "/js/main.js" | urlize }}"></script>
-  <script src="{{ "/js/reveal.js" | urlize }}"></script>
+  <script defer src="{{ "/js/main.js" | urlize }}"></script>
+  <script defer src="{{ "/js/reveal.js" | urlize }}"></script>
   <script src="{{ "/js/headroom.js" | urlize }}"></script>
   <script>
     var myElement = document.querySelector("header");

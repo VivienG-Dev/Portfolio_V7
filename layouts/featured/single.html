@@ -2,10 +2,10 @@
 
 <section class="single-page">
   <div class="container">
-    <div class="global">
-      <div class="project-card reveal-1">
-        <div class="project-card-left">
-          <h4>{{ .Title }}</h4>
+    <div class="project">
+      <div class="project__card reveal-1">
+        <div class="project__card--left">
+          <h1>{{ .Title }}</h1>
           <div class="project__badges">
             {{ range $tags := .Params.tags }}
             <span>{{ $tags }}</span>
@@ -13,10 +13,10 @@
           </div>
           <p>{{ .Content }}</p>
           <div>
-            <a href="{{ .Params.link_to_website }}" class="btn btn-body btn-body-card">Voir le site</a>
+            <a href="{{ .Params.link_to_website }}" class="btn btn--card">Voir le site</a>
           </div>
         </div>
-        <div class="project-card-right">
+        <div class="project__card--right">
           <img
             alt="{{ .Params.alt_thumbnail }}"
             src="{{ .Params.medium_thumbnail | absURL }}"

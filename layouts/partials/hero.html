@@ -1,18 +1,18 @@
 {{ with .Site.Params.banner }} {{ if .enable }}
 <section class="hero" id="hero">
-  <div class="hero-right reveal-1">
-    <div class="sub-headline">
+  <div class="hero__right reveal-1">
+    <div class="hero__image">
       <picture>
         <source media="(max-width: 1200px)" srcset="{{ .image_small | absURL }}">
         <img src="{{ .image_big | absURL }}" alt="{{ .alt }}">
       </picture>
     </div>
   </div>
-  <div class="hero-left">
-    <h1 class="headline">{{ .heading }}</h1>
-    <div class="headline-description">
+  <div class="hero__left">
+    <h1 class="hero__headline">{{ .heading }}</h1>
+    <div class="hero__subheadline">
       <div class="single-animation">
-        <h2>{{ .tagline }}</hé>
+        <h2>{{ .tagline }}</h2>
       </div>
     </div>
   </div>

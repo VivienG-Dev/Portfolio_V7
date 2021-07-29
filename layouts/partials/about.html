@@ -1,19 +1,19 @@
 {{ with .Site.Params.about }} {{ if .enable }}
 <section>
   <div class="container">
-    <div class="global padding-right">
-      <div class="global-headline reveal-1">
-        <div class="sub-headline-section">
+    <div class="global">
+      <div class="global__title reveal-1">
+        <div class="global__subheadline">
           <span>{{ .title }}</span>
         </div>
-        <h2 class="headline-section">{{ .title }}</h2>
+        <h2 class="global__headline">{{ .title }}</h2>
       </div>
-      <div class="about-container">
-        <div class="text-about reveal-1">
+      <div class="about">
+        <div class="about__text reveal-1">
           <p>{{ .p_tag_1 }}</p>
           <p>{{ .p_tag_2 }}</p>
         </div>
-        <div class="image-about reveal-2">
+        <div class="about__image reveal-2">
           <picture>
             <source media="(max-width: 767px)" srcset="{{ .image_small | absURL }}">
             <img loading="lazy" src="{{ .image_big | absURL }}" alt="{{ .alt }}">
@@ -21,7 +21,7 @@
           <a href="https://twitter.com/vivieng_webdev"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
-      <div class="title90__right">
+      <div class="title90 title90--right">
         {{ .subtitle }}
       </div>
     </div>
