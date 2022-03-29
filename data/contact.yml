@@ -1,12 +1,12 @@
 enable  : true
 title   : "Contact"
 questions_item :
-  - question  : "Pouvez-vous faire du design ?"
+  - question : "Pouvez-vous faire du design ?"
     answer: "Je ne suis pas designer et même si j'aime pratiquer le design sur mon temps libre, je me concentre principalement sur l'intégration."
 
-  - question  : "Quel type de site pouvez-vous faire ?"
+  - question : "Quel type de site pouvez-vous faire ?"
     answer: "Je suis parfaitement capable de créer un site vitrine, un site
-            WordPress, le tout bien évidemment en responsive (donc adapté aux
+            WordPress (blog, association...), le tout bien évidemment en responsive (donc adapté aux
             smartphones).<br /><br />
             En fonction des besoins du client, je peux également utiliser la
             Jamstack, générateurs de site statique comme
@@ -19,7 +19,7 @@ questions_item :
     answer: "Si vous avez besoin d'un audit afin de faire le point sur un problème
     de SEO, de design, d'optimisation alors je peux également vous aider dans cette tâche."
 
-  - question  : "Quels sont les tarifs d'un site ?"
+  - question : "Quels sont les tarifs d'un site ?"
     answer: "Les tarifs d'un site web peuvent varier du simple au double en
             fonction des besoins du client, de la charge de travail, du type de
             site (WordPress, Wix, statique, personnalisé). Les prix peuvent donc varier de 
