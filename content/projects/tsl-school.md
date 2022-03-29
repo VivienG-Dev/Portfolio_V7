@@ -6,7 +6,7 @@ author: "VivienG"
 type: featured
 tags: ["HTML5", "CSS3", "Bootstrap 3"]
 category: ["Portfolio"]
-summary: "Rénovation du site web d'une école Thaïlandaise | VivienG"
+summary: "Rénovation du site web d'une école Thaïlandaise"
 keywords: ""
 link_to_website: "https://www.languageschool.vivieng.com/"
 big_thumbnail: "images/tsl-language-school-big.jpg"

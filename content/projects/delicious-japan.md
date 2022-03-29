@@ -6,7 +6,7 @@ author: "VivienG"
 type: featured
 tags: ["HTML5", "CSS3", "JavaScript", "SASS"]
 category: ["Portfolio"]
-summary: "Site conçu sur le thème de la nourriture japonaise | VivienG"
+summary: "Site conçu sur le thème de la nourriture japonaise"
 keywords: ""
 link_to_website: "https://www.deliciousjapan.vivieng.com/"
 big_thumbnail: "images/delicious-japan-big.jpg"

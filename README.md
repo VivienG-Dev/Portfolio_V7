@@ -23,3 +23,4 @@ And if you are wondering, you aren't obligated to use the themes folder to start
 
 ## Start server ?
 You can start the dev server by running `hugo server`
+To build the site, run `hugo`

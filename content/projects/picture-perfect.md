@@ -3,10 +3,10 @@ title: "Picture Perfect"
 date: 2021-04-15T04:03:49+02:00
 draft: false
 author: "VivienG"
-type: featured
+type: 
 tags: ["HTML5", "CSS3", "Bootstrap 4", "SASS"]
 category: ["Portfolio"]
-summary: "Site réalisé à partir du PSD de Blaz Robar avec Bootstrap 4 | VivienG"
+summary: "Site réalisé à partir du PSD de Blaz Robar avec Bootstrap 4"
 keywords: ""
 link_to_website: "https://www.pictureperfect.vivieng.com/"
 big_thumbnail: "images/picture-perfect-big.jpg"
