@@ -20,3 +20,6 @@ HUGO in the future.
 ## There is nothing in "themes"?!
 Yes, there is nothing in the themes folder because I didn't planned to share my "theme" in the Hugo Themes website.
 And if you are wondering, you aren't obligated to use the themes folder to start a website with HUGO.
+
+## Start server ?
+You can start the dev server by running `hugo server`
