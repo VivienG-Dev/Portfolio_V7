@@ -129,4 +129,4 @@ summaryLength = "10"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        description = "Design et intégration par VivienG. © 2021"
+        description = "Design et intégration par VivienG. © 2021-2022"
