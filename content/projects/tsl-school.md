@@ -3,7 +3,7 @@ title: "TSL Language School"
 date: 2021-04-15T03:53:27+02:00
 draft: false
 author: "VivienG"
-type: featured
+type: 
 tags: ["HTML5", "CSS3", "Bootstrap 3"]
 category: ["Portfolio"]
 summary: "Rénovation du site web d'une école Thaïlandaise"
