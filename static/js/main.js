@@ -1,5 +1,5 @@
 // Toggle menu
-const toggle = document.querySelector(".menu-toggle");
+const toggle = document.querySelector(".menu");
 
 toggle.addEventListener("click", () => {
   document.body.classList.toggle("open");
@@ -47,14 +47,14 @@ if ((currentTheme == "dark") & (currentChecked == "true")) {
   document.getElementById("nav-darkmode").classList.toggle("nav-item--moon");
 }
 
-window.onscroll = function() {
+window.onscroll = function () {
   let scrollTop = window.scrollY;
-  const toTheTop = document.querySelector('.top-site-link');
+  const toTheTop = document.querySelector(".top-site-link");
   // console.log(scrollTop)
-  
-  if(scrollTop > 400) {
+
+  if (scrollTop > 400) {
     toTheTop.style.display = "block";
   } else {
     toTheTop.style.display = "none";
   }
-}
+};
