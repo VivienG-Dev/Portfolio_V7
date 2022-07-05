@@ -9,8 +9,10 @@
         <h2 class="global__headline">{{ .title }}</h2>
       </div>
       <div class="realisations">
+        {{ $counter := 0 }}
         {{ range $.Site.RegularPages }}
-        <article class="realisations__card reveal-1">
+        {{ $counter = add $counter 1 }}
+        <article class="realisations__card reveal-{{ $counter }}">
           <div class="realisations__card--left">
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <p>{{ .Summary }}</p>
