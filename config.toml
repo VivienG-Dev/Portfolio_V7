@@ -1,6 +1,6 @@
 baseURL       = "https://www.vivieng.com/"
 languageCode  = "fr"
-title         = "Développeur front et intégrateur web"
+title         = "Développeur web front freelance"
 summaryLength = "10"
 
 # Site Menus
@@ -25,9 +25,9 @@ summaryLength = "10"
   alt = "VivienG logo"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Développeur web pouvant créer votre site internet et vous apporter de la visibilité sur google."
+  description = "Développeur web freelance pouvant créer votre site internet et vous apporter de la visibilité sur google."
   author = "VivienG"
-  keywords = "vivieng, création site internet, front end, react, vuejs, développeur web"
+  keywords = "vivieng, création site internet, front end, vuejs, react, nuxt, développeur web"
   metaimage = "/images/vivieng-meta-image.jpg"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
@@ -58,9 +58,9 @@ summaryLength = "10"
     image_big             = "/images/vivieng-hero-big.png"
     alt                   = "VivienG"
     heading               = "VIVIENG"
-    tagline               = "Développeur Web front-end"
+    tagline               = "Développeur Web freelance front-end"
     primary_button        = "voir mon cv"
-    primary_button_url    = "/images/CV_GRENIER_VIVIEN_front.pdf"
+    primary_button_url    = "/images/CV2-Grenier-Vivien-2023.pdf"
     secondary_button      = ""
     secondary_button_url  = ""
 
@@ -78,9 +78,9 @@ summaryLength = "10"
     image_small         = "/images/vivieng-about-small.jpg"
     image_big           = "/images/vivieng-about-big.jpg"
     alt                 = "VivienG"
-    p_tag_1             = "Je m’appelle Grenier Vivien et je suis développeur web."
-    p_tag_2             = "Automome et motivé, je suis capable de créer des applications web, de donner vie à des maquettes. Souvent curieux, je m'intéresse à beaucoup de sujets comme le design, l'expérience utilisateur, l'optimisation."
-    p_tag_3             = "Je suis toujours enthousiaste à l'idée de démarrer un nouveau projet !"
+    p_tag_1             = "Je m'appelle Vivien Grenier et je suis développeur web freelance."
+    p_tag_2             = "J'ai travaillé pour la start-up SpinforEat d'août 2022 à décembre 2023 pour la réalisation de deux applications web (SPA) avec Vue 3, Composition API, Pinia, Sass, implémentation d'API ainsi qu'un site vitrine utilisant Nuxt."
+    p_tag_3             = "Autonome et motivé, je suis capable de créer des applications web de A à Z et de donner vie à des maquettes. Curieux, je m'intéresse à de nombreux sujets comme le design, l'expérience utilisateur et l'optimisation."
 
   [params.p404]
     enable              = true
@@ -129,4 +129,5 @@ summaryLength = "10"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        description = "Design et intégration par VivienG. © 2021-2022"
+        copyright = "Design et intégration par VivienG. © 2021-2024"
+        siren = "Numéro de siren: 917932287"
