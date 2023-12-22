@@ -25,9 +25,9 @@ summaryLength = "10"
   alt = "VivienG logo"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Développeur web pouvant créer votre site internet et vous apporter de la visibilité sur google."
+  description = "Développeur web freelance pouvant créer votre site internet et vous apporter de la visibilité sur google."
   author = "VivienG"
-  keywords = "vivieng, création site internet, front end, vuejs, Vue3, react, développeur web"
+  keywords = "vivieng, création site internet, front end, vuejs, Vue3, nuxt, nodejs, react, développeur web"
   metaimage = "/images/vivieng-meta-image.jpg"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
