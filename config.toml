@@ -129,4 +129,5 @@ summaryLength = "10"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        description = "Design et intégration par VivienG. © 2021-2023"
+        copyright = "Design et intégration par VivienG. © 2021-2023"
+        siren = "Numéro de siren: 917932287"
