@@ -3,7 +3,7 @@ title: "Groupomania"
 date: 2022-03-29T13:31:51+02:00
 draft: false
 author: "VivienG"
-type: featured
+type:
 tags: ["HTML5", "CSS3", "React", "Node.js", "MySQL", "Bootstrap"]
 category: ["Portfolio"]
 summary: "Projet 7 d'OpenClassrooms : Groupomania"
