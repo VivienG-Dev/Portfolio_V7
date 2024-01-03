@@ -4,7 +4,7 @@ date: 2024-01-03T18:48:01+01:00
 draft: false
 author: "VivienG"
 type: featured
-tags: ["NUXT", "Vue.js", "Tailwind CSS", "Star Citizen", "Rest API"]
+tags: ["NUXT", "Vue.js", "TypeScript", "Tailwind CSS", "Star Citizen", "Rest API"]
 categories: ["Portfolio"]
 summary: "Projet Nuxt permettant de consulter la liste des vaisseaux du jeu Star Citizen."
 link_to_website: "https://star-citizen-tool.vivieng.com/"
@@ -14,10 +14,10 @@ small_thumbnail: "images/star-citizen-tool-small.jpg"
 alt_thumbnail: "Star Citizen Tool project"
 ---
 
-Projet réalisé avec Nuxt 3 et Tailwind CSS permettant de consulter les caractéristiques des vaisseaux du jeu Star Citizen.
+Projet réalisé avec Nuxt 3, Tailwind CSS et TypeScript permettant de consulter les caractéristiques des vaisseaux du jeu Star Citizen.
 
 J'ai utilisé l'API REST ["StarCitizen-API"](https://starcitizen-api.com/index.php) pour récupérer les données des vaisseaux du jeu. Ce choix était motivé par le besoin de pratiquer l'implémentation d'une API externe dans un projet Nuxt.
-Ensuite, j'ai utilisé ["Tailwind CSS"](https://tailwindcss.com/) pour le design du site.
+Ensuite, j'ai utilisé ["Tailwind CSS"](https://tailwindcss.com/) pour le design du site ainsi que ["TypeScript"](https://www.typescriptlang.org/) pour le typage des données.
 
 J'ai dû créer mon propre système de pagination côté front-end car l'API ne permettait pas de récupérer les données de cette manière. Cela a entraîné un temps de chargement relativement long puisque toutes les données doivent être récupérées en une seule fois.
 
