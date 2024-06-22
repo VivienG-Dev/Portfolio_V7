@@ -3,7 +3,7 @@ title: "Online Resume"
 date: 2022-06-13T15:50:48+02:00
 draft: false
 author: "VivienG"
-type: featured
+type:
 tags: ["HTML5", "CSS3", "JavaScript"]
 category: ["Portfolio"]
 summary: "Mon cv en format web"
