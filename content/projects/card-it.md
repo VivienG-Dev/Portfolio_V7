@@ -23,6 +23,8 @@ frontend.
 J'ai volontairement utilisé un minimum de librairies, quitte à réinventer la roue (validation from scratch par exemple)
 juste pour le plaisir de pratiquer et de me mettre en difficulté pour apprendre plus et me remettre au backend.
 
+Pour la base de donnée, j'ai utilisé Supabase, qui propose une base de donnée PostgreSQL gratuite et facile à utiliser.
+
 Le projet est actuellement disponible sur [Render](https://card-it-frontend.onrender.com/). Il est fonctionnel, mais
 ayant une offre gratuite, il se peut que le site soit lent à charger (le serveur se met en veille après un certain temps
-d'inactivité).
+d'inactivité). Vous pouvez également voir le projet sur mon github [Card-It](https://github.com/VivienG-Dev/Card-It).
