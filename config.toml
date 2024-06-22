@@ -60,7 +60,7 @@ summaryLength = "10"
     heading               = "VIVIENG"
     tagline               = "Développeur Web front-end freelance"
     primary_button        = "voir mon cv"
-    primary_button_url    = "/images/CV2-Grenier-Vivien-2023.pdf"
+    primary_button_url    = "/images/CV_Grenier_Vivien_2024.pdf"
     secondary_button      = ""
     secondary_button_url  = ""
 
@@ -129,5 +129,5 @@ summaryLength = "10"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        copyright = "Design et intégration par VivienG. © 2021-2023"
+        copyright = "Design et intégration par VivienG. © 2021-2024"
         siren = "Numéro de siren: 917932287"
